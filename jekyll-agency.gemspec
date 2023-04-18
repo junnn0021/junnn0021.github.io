@@ -1,10 +1,3 @@
-source "https://rubygems.org"
-gemspec
-gem "jekyll-agency", git: "https://github.com/bjacoby/jekyll-agency"
-# Delete the following lines if not on Windows: 
-# Performance-booster for watching directories on Windows
-gem "wdm", ">= 0.1.0" if Gem.win_platform?
-
 Gem::Specification.new do |spec|
   spec.name     = "jekyll-agency"
   spec.version  = "1.1.0"
